@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Form</title>
+</head>    
+<body>
+    <form action="submit.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Full Name" required minlength="5"><br><br><br>
+        <label for="surname" >Surname:</label>
+        <input type="text" id="surname" placeholder="Surname" maxlength="7"><br><br><br>
+        <label for="fn">father Name:</label>
+        <input type="text" id="fn" placeholder="Father name"><br><br><br>
+        <label for="mn">Mother name:</label>
+        <input type="text" id="mn" placeholder="Mother name">
+        <br><br><br>
+        <label for="paddress">Present Address:</label>
+        <textarea  id="paddress" cols="20" rows="7" placeholder="Present Address"></textarea><br><br><br>
+         <label for="address">Permanent Address:</label>
+        <textarea  id="address" cols="20" rows="7" placeholder="Permanent Address"></textarea><br><br><br>
+        <label for="religious">religious:</label>
+        <select id="religious">
+            <option selected>Islam</option>
+            <option>Hindus</option>
+            <option>Cristian</option>
+            <option disabled>Jews</option>
+            <option>Boddis</option>
+            <option>Others</option>
+            
+        </select><br><br><br>
+        <label for="Nationality">Nationality:</label>
+        <input type="text" id="Nationality" placeholder="Nationality"><br><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" placeholder="Date of Birth"><br><br><br>
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" > <label for="male">Male</label> <input type="radio" id="female" name="gender"> <label for="female">Female</label>
+        <br><br><br>
+        <label for="cn">Contract no:</label>
+        <input type="tel" id="cn" required ><br><br><br>
+        <label for="em">EMail:</label>
+        <input type="email" id="em"><br><br><br>
+        <label>Addmission for:</label><br>
+        <input type="radio" id="b" name="AF"> <label for="b"  >Bacelor's</label> <input type="radio" id="m" name="AF"> <label for="m" >Master's</label><br><br><br>
+        <input type="checkbox" required> <b> Agree your rules and regulations.</b><br><br><br>
+        <input type="reset" value="Reset"> <input type="submit" value="Submit">
+    </form>
+        
+    </body>
+</html>
